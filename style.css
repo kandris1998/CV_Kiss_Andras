@@ -1,8 +1,8 @@
 body{
     height: auto;
     width: auto;
-    justify-content: center;
-    align-items: center;
+ /*   justify-content: center;
+    align-items: center;*/
 }
 
 header{
@@ -24,7 +24,8 @@ header{
 }
 
 section{
-    display: flex ;
+display: flex;
+font-size: 9px;
 }
 
 main{
@@ -37,6 +38,14 @@ main{
     flex-grow: 2;
     background-color: aqua;
 
+}
+
+#info{
+    border: solid thin black;
+}
+
+#introduction{
+    border: solid thin black;
 }
 
 
