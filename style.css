@@ -1,0 +1,45 @@
+body{
+    height: auto;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    border: solid thin black;
+    background-color: orangered;
+    display: flex;
+}
+
+#title{
+    flex-grow: 5;
+    border: solid thin black;
+    /*background-color: blue;*/
+
+}
+
+#photo{
+    border: solid thin black;
+    flex-grow: 1.5;
+}
+
+section{
+    display: flex ;
+}
+
+main{
+    border: solid thin black;
+    flex-grow: 5;
+}
+
+#right{
+    border: solid thin black;
+    flex-grow: 2;
+    background-color: aqua;
+
+}
+
+
+h4 {
+    text-transform: uppercase;
+}
