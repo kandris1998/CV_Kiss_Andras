@@ -3,13 +3,19 @@ body{
    /* width: auto;*/
  /*   justify-content: center;
     align-items: center;*/
+    font-family: 'Open Sans', sans-serif;
 }
 
 header{
     border: solid thin black;
     background-color: orangered;
     display: flex;
+    text-align: center;
+    font-family: 'El Messiri', sans-serif;
+  /*  text-transform: uppercase;*/
 }
+
+
 
 #title{
     flex-grow: 5;
@@ -20,8 +26,11 @@ header{
 
 #photo{
     border: solid thin black;
+    display: flex;
+    justify-content: flex-end;
     flex-grow: 1.5;
 }
+
 
 section{
 display: flex;
@@ -30,6 +39,7 @@ display: flex;
 
 main{
     border: solid thin black;
+    padding: 10px;
    /* flex-grow: 10;*/
 }
 
@@ -195,8 +205,13 @@ h4 {
     /* Make all right containers behave like the left ones */
     .right {
     left: 0%;
+   /* */
     }
   }
+
+#introduction {
+  padding: 10px;
+}
 
 .level{
     float: right;
